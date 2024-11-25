@@ -5,6 +5,8 @@ from airflow.providers.amazon.aws.operators.s3 import S3DeleteBucketOperator
 from airflow.utils.dates import days_ago
 from airflow.utils.trigger_rule import TriggerRule
 from datetime import datetime
+from airflow.operators.dummy import DummyOperator
+
 
 default_args = {
     'owner': 'airflow',
@@ -14,12 +16,7 @@ default_args = {
 
 with DAG("google_firebase_s3", start_date=datetime(2024, 11, 25),
          schedule_interval="@daily", catchup=False, default_args=default_args) as dag:
-
-    create_s3_bucket = S3CreateBucketOperator(
-        task_id='create_s3_bucket',
-        bucket_name='howagile-dataengineering'
-    )
-
+    
     task_google_sheets_values_to_s3 = GoogleApiToS3Operator(
         task_id='google_sheet_data_to_s3',
         google_api_service_name='sheets',
@@ -32,10 +29,6 @@ with DAG("google_firebase_s3", start_date=datetime(2024, 11, 25),
         s3_destination_key='s3://howagile-dataengineering/DMMLookup.csv'
     )
 
-    delete_s3_bucket = S3DeleteBucketOperator(
-        task_id='delete_s3_bucket',
-        bucket_name='howagile-dataengineering',
-        trigger_rule=TriggerRule.ALL_DONE
-    )
+    start = DummyOperator(task_id='Starting', dag=dag)
 
-    create_s3_bucket >> task_google_sheets_values_to_s3 >> delete_s3_bucket
+    start >> copy_sheet_to_gcs
