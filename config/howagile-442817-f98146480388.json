@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "howagile-442817",
+  "private_key_id": "f98146480388bdcf3b2ee75d9b8526ca0d04212f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCvrbOzoWVhhPUy\nlPYcfv+oB3NOQCj7I51Bmt+AqX61AZG4L+AmjWuoXb4ItW1maFhwjkZBHHkr3+CQ\nGGIL9jA1tPtmsjOw4PFPPzkc33d+AVCH47XOUHpMSqslHeky6CthMis2jVysNPse\nQJENFf8mIRwkuA7k7suHr5u2oRjPHcU/yQkeU4YWjgQOQqmobNhhe7y8zextv+1I\nJQd4v7nG+J+IDWbXX+lD72HyDoK8wSWIophY865V04wLkJj4OHS3LQn7E/oqO1fa\n2cElfVh2mTYO0aMrVxr5vVauxC7VAt4iuxAE/JFVRJSCcvfDK8Qgnnmuby1L7tpl\nrQzUr4ihAgMBAAECggEAEh/4NdS1enm2uHjA6ZC6vLHEFjMtZze17kJVw9b44SDf\n0WJzHFcj39OIGyrothOW6EnteqM+5yVqbENvvi8wqyHYfDBvf9S9YMEzmcR+dgwZ\nrGN0auxHqd5cSPCMkjl83ELKTY8JHCU9MVJVBMYbtGnfFvS8aKcwbXfTN2Tog9mx\nIDfLoh/nGOr0ecTBfnQ1b7KZiHTZian0zO9LqlzYjZ5qf59e9NmsxIIzY37+k1Ms\nlOkPhdDHlNHexaQNDT1krR7teD2sf/F4SSIEUFnrR+OsoZ/9KAHGdrEAanaVCbiN\nLjciK8A3CNFTyhNeoHQNBm5Hc0nK7cemsTV9L+t5IQKBgQDgDSLDaBpajSWWsROY\n1DPviEk99mxN4erH1lBnKdVIqN4DSCpI0XKu/k8oPba25yeV5bfqHokfXJgbMK3K\n+FMIDyedSiXQ4c0WrgCtIBsmyF96sObQruGHSqYK5FBtoRV+VutiuoQAf6zRKTSD\nhilE10oCZwTCGip4cOJoJbMIqQKBgQDIur7P6LXNLIgou1FIU23TNtPB2CSMj8Bh\ncLDrSWzqXsDkrU/GzQ3Isx9PqBll3Im4OHud25mMZS1LzqT9FpPHisnKFsDQJxhI\nFLzawrg/gdqHUKRtW8S/CVqcDvGMmhLvvDNQRQ+kFeyzfQRZGS+l1H88Iwpk2ZDf\njD/UDTejOQKBgAc0BOkZYLeGkC3PFZ01PVI3JHusf4DlgYHZPw6CBsxmOXULjeh3\na2N645qcmVI6DkjAcPBC+Q+cD3vYTc4Xu7unmRNyfdLAX7KZ94WZYaYWjRNJurH8\n3V1XJg11l6xeoG1GaBzteC7369txorGTz6HZ9hQrsbh31OO4ZV8Jzz65AoGALG7C\nDC28CJXB8ho8zODC3800JKWeuYqckDUsxHh1Zo/g7P28Ogpr8bBMzworzRN7XM8L\n9g6FN8GxvCUa+ncD8Vi0gEp3FdyBkHseruIJfO1WnTtpmleE/rCoYQEh0PjOFkk3\npp4S70R3J+gVjU9476FRJNOw2lAatJFME7l1RmkCgYEAhFiPTnyMZC04nxd2ziar\nOBxzbY5PvqbJAp4OsDkdGoMCYMBiVXneuss+pIRkEhcsqNrWHt9TsuPATO5/gEGD\noBZn78qD9WoRjMt1wrDL3t9GWJ2ccK0b5vFIQgLh/ZlS6U+JWs02lvk9hakvVPOd\naJwRlXRFDFZ1RdmBcTHf2Iw=\n-----END PRIVATE KEY-----\n",
+  "client_email": "howagileairflow@howagile-442817.iam.gserviceaccount.com",
+  "client_id": "106361413648836477746",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/howagileairflow%40howagile-442817.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

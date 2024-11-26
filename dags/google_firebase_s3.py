@@ -11,7 +11,7 @@ from airflow.operators.dummy import DummyOperator
 default_args = {
     'owner': 'airflow',
     'start_date': datetime(2024, 11, 25),
-    'retries': 1,
+    'retries': 0,
 }
 
 with DAG("google_firebase_s3", start_date=datetime(2024, 11, 25),
@@ -21,6 +21,7 @@ with DAG("google_firebase_s3", start_date=datetime(2024, 11, 25),
         task_id='google_sheet_data_to_s3',
         google_api_service_name='sheets',
         google_api_service_version='v4',
+        google_impersonation_chain='howagileairflow@howagile-442817.iam.gserviceaccount.com',
         google_api_endpoint_path='sheets.spreadsheets.values.get',
         google_api_endpoint_params={
             'spreadsheetId': '1-ESRUZvSKfI3F5d0f0IqMc78KNOw8YGL3PWR_NuJd-k',
@@ -31,4 +32,4 @@ with DAG("google_firebase_s3", start_date=datetime(2024, 11, 25),
 
     start = DummyOperator(task_id='Starting', dag=dag)
 
-    start >> copy_sheet_to_gcs
+    start >> task_google_sheets_values_to_s3
