@@ -1,0 +1,32 @@
+[2024-11-26T20:37:49.356+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-26T20:37:49.374+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: google_sheet_to_s3_to_rds.truncate_mysql manual__2024-11-26T20:37:39.598539+00:00 [queued]>
+[2024-11-26T20:37:49.383+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: google_sheet_to_s3_to_rds.truncate_mysql manual__2024-11-26T20:37:39.598539+00:00 [queued]>
+[2024-11-26T20:37:49.384+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2024-11-26T20:37:49.398+0000] {taskinstance.py:2889} INFO - Executing <Task(SQLExecuteQueryOperator): truncate_mysql> on 2024-11-26 20:37:39.598539+00:00
+[2024-11-26T20:37:49.404+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=3652) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-11-26T20:37:49.405+0000] {standard_task_runner.py:72} INFO - Started process 3654 to run task
+[2024-11-26T20:37:49.406+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'google_sheet_to_s3_to_rds', 'truncate_mysql', 'manual__2024-11-26T20:37:39.598539+00:00', '--job-id', '120', '--raw', '--subdir', 'DAGS_FOLDER/google_sheet_to_s3_to_rds.py', '--cfg-path', '/tmp/tmpogacxrcr']
+[2024-11-26T20:37:49.407+0000] {standard_task_runner.py:105} INFO - Job 120: Subtask truncate_mysql
+[2024-11-26T20:37:49.454+0000] {task_command.py:467} INFO - Running <TaskInstance: google_sheet_to_s3_to_rds.truncate_mysql manual__2024-11-26T20:37:39.598539+00:00 [running]> on host 4b3a7f9b2751
+[2024-11-26T20:37:49.745+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='google_sheet_to_s3_to_rds' AIRFLOW_CTX_TASK_ID='truncate_mysql' AIRFLOW_CTX_EXECUTION_DATE='2024-11-26T20:37:39.598539+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-11-26T20:37:39.598539+00:00'
+[2024-11-26T20:37:49.746+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-11-26T20:37:49.746+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-11-26T20:37:49.747+0000] {logging_mixin.py:190} INFO - Current task name:truncate_mysql state:running start_date:2024-11-26 20:37:49.375338+00:00
+[2024-11-26T20:37:49.748+0000] {logging_mixin.py:190} INFO - Dag name:google_sheet_to_s3_to_rds and current dag run status:running
+[2024-11-26T20:37:49.748+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-26T20:37:49.749+0000] {sql.py:278} INFO - Executing: TRUNCATE TABLE stage.dmm_lookup;
+[2024-11-26T20:37:49.758+0000] {base.py:84} INFO - Retrieving connection 'mysql_conn'
+[2024-11-26T20:37:49.766+0000] {base.py:84} INFO - Retrieving connection 'mysql_conn'
+[2024-11-26T20:37:50.087+0000] {sql.py:544} INFO - Running statement: TRUNCATE TABLE stage.dmm_lookup;, parameters: None
+[2024-11-26T20:37:50.179+0000] {sql.py:553} INFO - Rows affected: 0
+[2024-11-26T20:37:50.230+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-26T20:37:50.231+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=google_sheet_to_s3_to_rds, task_id=truncate_mysql, run_id=manual__2024-11-26T20:37:39.598539+00:00, execution_date=20241126T203739, start_date=20241126T203749, end_date=20241126T203750
+[2024-11-26T20:37:50.242+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-11-26T20:37:50.242+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-11-26T20:37:50.243+0000] {logging_mixin.py:190} INFO - Dag name:google_sheet_to_s3_to_rds queued_at:2024-11-26 20:37:39.609691+00:00
+[2024-11-26T20:37:50.243+0000] {logging_mixin.py:190} INFO - Task hostname:4b3a7f9b2751 operator:SQLExecuteQueryOperator
+[2024-11-26T20:37:50.262+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-26T20:37:50.289+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-11-26T20:37:50.293+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

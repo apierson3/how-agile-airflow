@@ -1,0 +1,30 @@
+[2024-11-27T02:55:41.031+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-27T02:55:41.046+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: google_sheet_to_s3_to_rds.delete_s3_file manual__2024-11-27T02:55:22.833898+00:00 [queued]>
+[2024-11-27T02:55:41.055+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: google_sheet_to_s3_to_rds.delete_s3_file manual__2024-11-27T02:55:22.833898+00:00 [queued]>
+[2024-11-27T02:55:41.055+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2024-11-27T02:55:41.068+0000] {taskinstance.py:2889} INFO - Executing <Task(S3DeleteObjectsOperator): delete_s3_file> on 2024-11-27 02:55:22.833898+00:00
+[2024-11-27T02:55:41.075+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=6405) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-11-27T02:55:41.076+0000] {standard_task_runner.py:72} INFO - Started process 6414 to run task
+[2024-11-27T02:55:41.077+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'google_sheet_to_s3_to_rds', 'delete_s3_file', 'manual__2024-11-27T02:55:22.833898+00:00', '--job-id', '193', '--raw', '--subdir', 'DAGS_FOLDER/google_sheet_to_s3_to_rds.py', '--cfg-path', '/tmp/tmpgukjjggt']
+[2024-11-27T02:55:41.079+0000] {standard_task_runner.py:105} INFO - Job 193: Subtask delete_s3_file
+[2024-11-27T02:55:41.131+0000] {task_command.py:467} INFO - Running <TaskInstance: google_sheet_to_s3_to_rds.delete_s3_file manual__2024-11-27T02:55:22.833898+00:00 [running]> on host 4b3a7f9b2751
+[2024-11-27T02:55:41.432+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='google_sheet_to_s3_to_rds' AIRFLOW_CTX_TASK_ID='delete_s3_file' AIRFLOW_CTX_EXECUTION_DATE='2024-11-27T02:55:22.833898+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-11-27T02:55:22.833898+00:00'
+[2024-11-27T02:55:41.434+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-11-27T02:55:41.434+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-11-27T02:55:41.435+0000] {logging_mixin.py:190} INFO - Current task name:delete_s3_file state:running start_date:2024-11-27 02:55:41.047291+00:00
+[2024-11-27T02:55:41.435+0000] {logging_mixin.py:190} INFO - Dag name:google_sheet_to_s3_to_rds and current dag run status:running
+[2024-11-27T02:55:41.436+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-27T02:55:41.448+0000] {base.py:84} INFO - Retrieving connection 's3_conn'
+[2024-11-27T02:55:41.448+0000] {connection_wrapper.py:325} INFO - AWS Connection (conn_id='s3_conn', conn_type='aws') credentials retrieved from login and password.
+[2024-11-27T02:55:42.186+0000] {s3.py:1380} INFO - Deleted: ['DMMlkp.csv']
+[2024-11-27T02:55:42.197+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-27T02:55:42.198+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=google_sheet_to_s3_to_rds, task_id=delete_s3_file, run_id=manual__2024-11-27T02:55:22.833898+00:00, execution_date=20241127T025522, start_date=20241127T025541, end_date=20241127T025542
+[2024-11-27T02:55:42.209+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-11-27T02:55:42.210+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-11-27T02:55:42.210+0000] {logging_mixin.py:190} INFO - Dag name:google_sheet_to_s3_to_rds queued_at:2024-11-27 02:55:22.845829+00:00
+[2024-11-27T02:55:42.211+0000] {logging_mixin.py:190} INFO - Task hostname:4b3a7f9b2751 operator:S3DeleteObjectsOperator
+[2024-11-27T02:55:42.254+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-27T02:55:42.271+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-11-27T02:55:42.273+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
