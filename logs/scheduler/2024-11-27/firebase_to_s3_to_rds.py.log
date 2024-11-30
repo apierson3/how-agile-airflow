@@ -3227,3 +3227,1725 @@ Traceback (most recent call last):
 ModuleNotFoundError: No module named 'firebase_admin'
 [2024-11-27T13:28:32.378+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
 [2024-11-27T13:28:32.398+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.046 seconds
+[2024-11-27T13:29:02.551+0000] {processor.py:186} INFO - Started process (PID=6350) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:29:02.553+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:29:02.556+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:29:02.555+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:29:02.577+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:29:02.572+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:29:02.579+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:29:02.602+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.057 seconds
+[2024-11-27T13:29:33.096+0000] {processor.py:186} INFO - Started process (PID=6416) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:29:33.097+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:29:33.100+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:29:33.099+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:29:33.117+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:29:33.113+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:29:33.118+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:29:33.143+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.054 seconds
+[2024-11-27T13:30:03.885+0000] {processor.py:186} INFO - Started process (PID=6482) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:30:03.891+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:30:03.897+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:30:03.897+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:30:03.965+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:30:03.961+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:30:03.967+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:30:04.000+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.135 seconds
+[2024-11-27T13:30:34.615+0000] {processor.py:186} INFO - Started process (PID=6548) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:30:34.616+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:30:34.619+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:30:34.619+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:30:34.636+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:30:34.632+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:30:34.637+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:30:34.660+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.054 seconds
+[2024-11-27T13:31:04.732+0000] {processor.py:186} INFO - Started process (PID=6614) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:31:04.733+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:31:04.735+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:31:04.735+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:31:04.749+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:31:04.746+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:31:04.750+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:31:04.766+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.040 seconds
+[2024-11-27T13:31:35.206+0000] {processor.py:186} INFO - Started process (PID=6680) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:31:35.207+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:31:35.209+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:31:35.209+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:31:35.227+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:31:35.223+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:31:35.228+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:31:35.249+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.049 seconds
+[2024-11-27T13:32:05.611+0000] {processor.py:186} INFO - Started process (PID=6746) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:32:05.612+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:32:05.614+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:32:05.614+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:32:05.628+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:32:05.625+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:32:05.630+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:32:05.650+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.045 seconds
+[2024-11-27T13:32:35.724+0000] {processor.py:186} INFO - Started process (PID=6813) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:32:35.725+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:32:35.727+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:32:35.727+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:32:35.742+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:32:35.739+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:32:35.743+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:32:35.760+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.042 seconds
+[2024-11-27T13:33:06.155+0000] {processor.py:186} INFO - Started process (PID=6879) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:33:06.156+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:33:06.159+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:33:06.158+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:33:06.172+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:33:06.169+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:33:06.174+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:33:06.192+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.045 seconds
+[2024-11-27T13:33:36.728+0000] {processor.py:186} INFO - Started process (PID=6945) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:33:36.729+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:33:36.731+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:33:36.731+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:33:36.746+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:33:36.743+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:33:36.747+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:33:36.765+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.043 seconds
+[2024-11-27T13:34:07.175+0000] {processor.py:186} INFO - Started process (PID=7011) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:34:07.177+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:34:07.180+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:34:07.179+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:34:07.199+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:34:07.195+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:34:07.201+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:34:07.225+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.057 seconds
+[2024-11-27T13:34:37.352+0000] {processor.py:186} INFO - Started process (PID=7077) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:34:37.353+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:34:37.356+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:34:37.355+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:34:37.373+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:34:37.369+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:34:37.374+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:34:37.396+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.050 seconds
+[2024-11-27T13:35:07.899+0000] {processor.py:186} INFO - Started process (PID=7143) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:35:07.900+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:35:07.905+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:35:07.904+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:35:07.922+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:35:07.918+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:35:07.924+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:35:07.952+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.060 seconds
+[2024-11-27T13:35:38.700+0000] {processor.py:186} INFO - Started process (PID=7209) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:35:38.701+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:35:38.704+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:35:38.704+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:35:38.721+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:35:38.717+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:35:38.722+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:35:38.743+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.050 seconds
+[2024-11-27T13:36:08.992+0000] {processor.py:186} INFO - Started process (PID=7275) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:36:08.993+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:36:08.996+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:36:08.996+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:36:09.011+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:36:09.008+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:36:09.012+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:36:09.031+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.045 seconds
+[2024-11-27T13:36:39.483+0000] {processor.py:186} INFO - Started process (PID=7341) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:36:39.484+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:36:39.487+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:36:39.487+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:36:39.502+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:36:39.498+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:36:39.503+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:36:39.522+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.044 seconds
+[2024-11-27T13:37:09.972+0000] {processor.py:186} INFO - Started process (PID=7407) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:37:09.975+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:37:09.978+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:37:09.978+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:37:10.000+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:37:09.996+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:37:10.002+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:37:10.027+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.063 seconds
+[2024-11-27T13:37:40.438+0000] {processor.py:186} INFO - Started process (PID=7473) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:37:40.439+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:37:40.441+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:37:40.441+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:37:40.455+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:37:40.451+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:37:40.456+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:37:40.475+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.043 seconds
+[2024-11-27T13:38:10.730+0000] {processor.py:186} INFO - Started process (PID=7539) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:38:10.731+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:38:10.735+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:38:10.734+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:38:10.749+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:38:10.746+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:38:10.750+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:38:10.768+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.046 seconds
+[2024-11-27T13:38:41.322+0000] {processor.py:186} INFO - Started process (PID=7605) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:38:41.323+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:38:41.325+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:38:41.325+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:38:41.341+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:38:41.338+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:38:41.342+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:38:41.365+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.050 seconds
+[2024-11-27T13:39:11.735+0000] {processor.py:186} INFO - Started process (PID=7671) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:39:11.736+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:39:11.738+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:39:11.738+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:39:11.750+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:39:11.748+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:39:11.752+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:39:11.770+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.040 seconds
+[2024-11-27T13:39:42.290+0000] {processor.py:186} INFO - Started process (PID=7737) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:39:42.291+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:39:42.294+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:39:42.293+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:39:42.308+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:39:42.304+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:39:42.310+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:39:42.336+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.054 seconds
+[2024-11-27T13:40:12.448+0000] {processor.py:186} INFO - Started process (PID=7802) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:40:12.449+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:40:12.451+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:40:12.451+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:40:12.464+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:40:12.461+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:40:12.465+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:40:12.483+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.041 seconds
+[2024-11-27T13:40:42.922+0000] {processor.py:186} INFO - Started process (PID=7868) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:40:42.923+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:40:42.926+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:40:42.925+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:40:42.942+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:40:42.939+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:40:42.943+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:40:42.962+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.045 seconds
+[2024-11-27T13:41:13.782+0000] {processor.py:186} INFO - Started process (PID=7934) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:41:13.783+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:41:13.786+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:41:13.785+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:41:13.801+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:41:13.798+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:41:13.802+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:41:13.822+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.045 seconds
+[2024-11-27T13:41:44.734+0000] {processor.py:186} INFO - Started process (PID=8000) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:41:44.735+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:41:44.738+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:41:44.738+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:41:44.757+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:41:44.754+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:41:44.758+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:41:44.776+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.048 seconds
+[2024-11-27T13:42:15.074+0000] {processor.py:186} INFO - Started process (PID=8066) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:42:15.075+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:42:15.078+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:42:15.078+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:42:15.091+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:42:15.089+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:42:15.093+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:42:15.110+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.041 seconds
+[2024-11-27T13:42:45.318+0000] {processor.py:186} INFO - Started process (PID=8124) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:42:45.319+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:42:45.321+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:42:45.320+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:42:45.337+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:42:45.334+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:42:45.338+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:42:45.355+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.043 seconds
+[2024-11-27T13:43:16.228+0000] {processor.py:186} INFO - Started process (PID=8172) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:43:16.228+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:43:16.231+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:43:16.230+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:43:16.243+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:43:16.240+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:43:16.244+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:43:16.261+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.038 seconds
+[2024-11-27T13:43:46.435+0000] {processor.py:186} INFO - Started process (PID=8232) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:43:46.436+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:43:46.439+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:43:46.438+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:43:46.450+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:43:46.448+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:43:46.451+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:43:46.469+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.039 seconds
+[2024-11-27T13:44:16.528+0000] {processor.py:186} INFO - Started process (PID=8294) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:44:16.529+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:44:16.531+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:44:16.531+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:44:16.545+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:44:16.542+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:44:16.546+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:44:16.566+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.044 seconds
+[2024-11-27T13:44:47.286+0000] {processor.py:186} INFO - Started process (PID=8355) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:44:47.287+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:44:47.291+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:44:47.291+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:44:47.312+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:44:47.308+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:44:47.314+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:44:47.342+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.067 seconds
+[2024-11-27T13:45:18.087+0000] {processor.py:186} INFO - Started process (PID=8421) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:45:18.088+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:45:18.090+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:45:18.090+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:45:18.108+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:45:18.104+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:45:18.109+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:45:18.128+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.051 seconds
+[2024-11-27T13:45:48.492+0000] {processor.py:186} INFO - Started process (PID=8487) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:45:48.492+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:45:48.495+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:45:48.494+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:45:48.512+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:45:48.509+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:45:48.513+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:45:48.532+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.050 seconds
+[2024-11-27T13:46:18.970+0000] {processor.py:186} INFO - Started process (PID=8553) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:46:18.971+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:46:18.973+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:46:18.972+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:46:18.987+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:46:18.984+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:46:18.988+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:46:19.006+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.042 seconds
+[2024-11-27T13:46:49.493+0000] {processor.py:186} INFO - Started process (PID=8619) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:46:49.495+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:46:49.498+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:46:49.498+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:46:49.516+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:46:49.513+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:46:49.517+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:46:49.535+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.058 seconds
+[2024-11-27T13:47:19.868+0000] {processor.py:186} INFO - Started process (PID=8685) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:47:19.869+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:47:19.871+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:47:19.871+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:47:19.884+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:47:19.881+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:47:19.885+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:47:19.901+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.038 seconds
+[2024-11-27T13:47:50.296+0000] {processor.py:186} INFO - Started process (PID=8751) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:47:50.297+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:47:50.301+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:47:50.301+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:47:50.319+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:47:50.316+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:47:50.321+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:47:50.339+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.052 seconds
+[2024-11-27T13:48:20.580+0000] {processor.py:186} INFO - Started process (PID=8817) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:48:20.581+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:48:20.583+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:48:20.583+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:48:20.601+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:48:20.598+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:48:20.602+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:48:20.619+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.044 seconds
+[2024-11-27T13:48:50.798+0000] {processor.py:186} INFO - Started process (PID=8883) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:48:50.799+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:48:50.802+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:48:50.802+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:48:50.821+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:48:50.818+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:48:50.822+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:48:50.838+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.047 seconds
+[2024-11-27T13:49:21.368+0000] {processor.py:186} INFO - Started process (PID=8949) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:49:21.370+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:49:21.373+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:49:21.373+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:49:21.393+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:49:21.390+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:49:21.393+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:49:21.410+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.049 seconds
+[2024-11-27T13:49:51.510+0000] {processor.py:186} INFO - Started process (PID=9015) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:49:51.511+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:49:51.514+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:49:51.514+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:49:51.533+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:49:51.529+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:49:51.536+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:49:51.558+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.054 seconds
+[2024-11-27T13:50:22.017+0000] {processor.py:186} INFO - Started process (PID=9081) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:50:22.018+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:50:22.021+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:50:22.020+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:50:22.048+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:50:22.044+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:50:22.049+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:50:22.067+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.055 seconds
+[2024-11-27T13:50:52.607+0000] {processor.py:186} INFO - Started process (PID=9147) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:50:52.608+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:50:52.610+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:50:52.610+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:50:52.626+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:50:52.623+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:50:52.628+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:50:52.652+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.050 seconds
+[2024-11-27T13:51:23.000+0000] {processor.py:186} INFO - Started process (PID=9213) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:51:23.003+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:51:23.007+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:51:23.006+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:51:23.027+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:51:23.023+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:51:23.029+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:51:23.058+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.073 seconds
+[2024-11-27T13:51:53.241+0000] {processor.py:186} INFO - Started process (PID=9279) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:51:53.242+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:51:53.245+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:51:53.245+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:51:53.261+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:51:53.259+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:51:53.262+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:51:53.286+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.054 seconds
+[2024-11-27T13:52:23.526+0000] {processor.py:186} INFO - Started process (PID=9345) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:52:23.527+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:52:23.530+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:52:23.530+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:52:23.546+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:52:23.543+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:52:23.547+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:52:23.564+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.043 seconds
+[2024-11-27T13:52:54.109+0000] {processor.py:186} INFO - Started process (PID=9411) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:52:54.110+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:52:54.112+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:52:54.112+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:52:54.131+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:52:54.128+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:52:54.131+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:52:54.147+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.044 seconds
+[2024-11-27T13:53:24.765+0000] {processor.py:186} INFO - Started process (PID=9477) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:53:24.766+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:53:24.769+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:53:24.768+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:53:24.782+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:53:24.779+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:53:24.783+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:53:24.802+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.041 seconds
+[2024-11-27T13:53:55.245+0000] {processor.py:186} INFO - Started process (PID=9543) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:53:55.246+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:53:55.248+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:53:55.248+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:53:55.264+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:53:55.261+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:53:55.265+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:53:55.281+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.041 seconds
+[2024-11-27T13:54:26.077+0000] {processor.py:186} INFO - Started process (PID=9609) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:54:26.079+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:54:26.081+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:54:26.081+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:54:26.101+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:54:26.098+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:54:26.102+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:54:26.121+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.049 seconds
+[2024-11-27T13:54:56.821+0000] {processor.py:186} INFO - Started process (PID=9675) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:54:56.822+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:54:56.824+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:54:56.824+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:54:56.841+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:54:56.839+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:54:56.842+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:54:56.859+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.043 seconds
+[2024-11-27T13:55:27.118+0000] {processor.py:186} INFO - Started process (PID=9741) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:55:27.120+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:55:27.122+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:55:27.122+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:55:27.138+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:55:27.135+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:55:27.139+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:55:27.156+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.044 seconds
+[2024-11-27T13:55:57.321+0000] {processor.py:186} INFO - Started process (PID=9807) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:55:57.322+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:55:57.325+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:55:57.325+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:55:57.341+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:55:57.339+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:55:57.342+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:55:57.360+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.046 seconds
+[2024-11-27T13:56:27.966+0000] {processor.py:186} INFO - Started process (PID=9873) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:56:27.967+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:56:27.972+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:56:27.971+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:56:27.993+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:56:27.989+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:56:27.995+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:56:28.020+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.063 seconds
+[2024-11-27T13:56:58.772+0000] {processor.py:186} INFO - Started process (PID=9939) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:56:58.774+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:56:58.776+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:56:58.776+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:56:58.792+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:56:58.789+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:56:58.793+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:56:58.811+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.044 seconds
+[2024-11-27T13:57:29.311+0000] {processor.py:186} INFO - Started process (PID=10005) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:57:29.312+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:57:29.314+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:57:29.314+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:57:29.332+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:57:29.329+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:57:29.333+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:57:29.350+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.045 seconds
+[2024-11-27T13:57:59.485+0000] {processor.py:186} INFO - Started process (PID=10071) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:57:59.486+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:57:59.489+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:57:59.488+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:57:59.507+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:57:59.503+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:57:59.508+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:57:59.527+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.048 seconds
+[2024-11-27T13:58:29.868+0000] {processor.py:186} INFO - Started process (PID=10137) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:58:29.870+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:58:29.874+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:58:29.874+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:58:29.895+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:58:29.891+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:58:29.896+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:58:29.915+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.058 seconds
+[2024-11-27T13:59:00.402+0000] {processor.py:186} INFO - Started process (PID=10203) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:59:00.402+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:59:00.404+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:59:00.404+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:59:00.421+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:59:00.418+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:59:00.422+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:59:00.439+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.043 seconds
+[2024-11-27T13:59:30.902+0000] {processor.py:186} INFO - Started process (PID=10269) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:59:30.904+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T13:59:30.906+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:59:30.906+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:59:30.925+0000] {logging_mixin.py:190} INFO - [2024-11-27T13:59:30.922+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T13:59:30.927+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T13:59:30.943+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.046 seconds
+[2024-11-27T14:00:01.298+0000] {processor.py:186} INFO - Started process (PID=10335) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:00:01.299+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:00:01.302+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:00:01.302+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:00:01.316+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:00:01.312+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:00:01.317+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:00:01.335+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.048 seconds
+[2024-11-27T14:00:32.343+0000] {processor.py:186} INFO - Started process (PID=10401) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:00:32.344+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:00:32.351+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:00:32.351+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:00:32.370+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:00:32.365+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:00:32.371+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:00:32.393+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.056 seconds
+[2024-11-27T14:01:02.923+0000] {processor.py:186} INFO - Started process (PID=10468) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:01:02.924+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:01:02.927+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:01:02.926+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:01:02.944+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:01:02.941+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:01:02.945+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:01:02.962+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.047 seconds
+[2024-11-27T14:01:33.140+0000] {processor.py:186} INFO - Started process (PID=10534) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:01:33.141+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:01:33.148+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:01:33.147+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:01:33.170+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:01:33.165+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:01:33.172+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:01:33.189+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.056 seconds
+[2024-11-27T14:02:03.630+0000] {processor.py:186} INFO - Started process (PID=10600) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:02:03.631+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:02:03.634+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:02:03.633+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:02:03.649+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:02:03.647+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:02:03.650+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:02:03.666+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.041 seconds
+[2024-11-27T14:02:34.373+0000] {processor.py:186} INFO - Started process (PID=10672) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:02:34.374+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:02:34.376+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:02:34.376+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:02:34.387+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:02:34.385+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:02:34.388+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:02:34.404+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.036 seconds
+[2024-11-27T14:03:04.681+0000] {processor.py:186} INFO - Started process (PID=10738) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:03:04.682+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:03:04.684+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:03:04.684+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:03:04.700+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:03:04.697+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:03:04.701+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:03:04.717+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.041 seconds
+[2024-11-27T14:03:35.261+0000] {processor.py:186} INFO - Started process (PID=10804) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:03:35.263+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:03:35.265+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:03:35.265+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:03:35.283+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:03:35.280+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:03:35.284+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:03:35.302+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.046 seconds
+[2024-11-27T14:04:05.966+0000] {processor.py:186} INFO - Started process (PID=10870) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:04:05.967+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:04:05.969+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:04:05.969+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:04:05.984+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:04:05.981+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:04:05.985+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:04:06.003+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.043 seconds
+[2024-11-27T14:04:36.351+0000] {processor.py:186} INFO - Started process (PID=10936) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:04:36.352+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:04:36.354+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:04:36.354+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:04:36.370+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:04:36.368+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:04:36.371+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:04:36.389+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.044 seconds
+[2024-11-27T14:05:06.841+0000] {processor.py:186} INFO - Started process (PID=11002) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:05:06.842+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:05:06.844+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:05:06.844+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:05:06.859+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:05:06.857+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:05:06.860+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:05:06.878+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.042 seconds
+[2024-11-27T14:05:37.219+0000] {processor.py:186} INFO - Started process (PID=11068) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:05:37.221+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:05:37.224+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:05:37.224+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:05:37.242+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:05:37.238+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:05:37.244+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:05:37.269+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.062 seconds
+[2024-11-27T14:06:07.344+0000] {processor.py:186} INFO - Started process (PID=11134) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:06:07.345+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:06:07.348+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:06:07.347+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:06:07.363+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:06:07.360+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:06:07.364+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:06:07.381+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.043 seconds
+[2024-11-27T14:06:38.083+0000] {processor.py:186} INFO - Started process (PID=11201) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:06:38.084+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:06:38.086+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:06:38.086+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:06:38.101+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:06:38.099+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:06:38.102+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:06:38.118+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.041 seconds
+[2024-11-27T14:07:08.188+0000] {processor.py:186} INFO - Started process (PID=11267) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:07:08.189+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:07:08.192+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:07:08.191+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:07:08.208+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:07:08.204+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:07:08.209+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:07:08.226+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.046 seconds
+[2024-11-27T14:07:38.359+0000] {processor.py:186} INFO - Started process (PID=11333) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:07:38.360+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:07:38.365+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:07:38.364+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:07:38.384+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:07:38.381+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:07:38.385+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:07:38.403+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.052 seconds
+[2024-11-27T14:08:08.560+0000] {processor.py:186} INFO - Started process (PID=11399) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:08:08.561+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:08:08.563+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:08:08.563+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:08:08.587+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:08:08.583+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:08:08.589+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:08:08.613+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.060 seconds
+[2024-11-27T14:08:39.007+0000] {processor.py:186} INFO - Started process (PID=11465) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:08:39.008+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:08:39.011+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:08:39.011+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:08:39.037+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:08:39.034+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:08:39.038+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:08:39.056+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.057 seconds
+[2024-11-27T14:09:09.106+0000] {processor.py:186} INFO - Started process (PID=11531) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:09:09.107+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:09:09.109+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:09:09.109+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:09:09.125+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:09:09.122+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:09:09.127+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:09:09.143+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.041 seconds
+[2024-11-27T14:09:39.297+0000] {processor.py:186} INFO - Started process (PID=11597) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:09:39.298+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:09:39.300+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:09:39.300+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:09:39.316+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:09:39.313+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:09:39.317+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:09:39.334+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.046 seconds
+[2024-11-27T14:10:10.348+0000] {processor.py:186} INFO - Started process (PID=11663) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:10:10.349+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:10:10.352+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:10:10.352+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:10:10.371+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:10:10.367+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:10:10.372+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:10:10.393+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.051 seconds
+[2024-11-27T14:10:40.693+0000] {processor.py:186} INFO - Started process (PID=11729) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:10:40.694+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:10:40.697+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:10:40.697+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:10:40.715+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:10:40.712+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:10:40.716+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:10:40.737+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.051 seconds
+[2024-11-27T14:11:11.496+0000] {processor.py:186} INFO - Started process (PID=11795) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:11:11.497+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:11:11.499+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:11:11.499+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:11:11.515+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:11:11.513+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:11:11.516+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:11:11.533+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.042 seconds
+[2024-11-27T14:11:41.766+0000] {processor.py:186} INFO - Started process (PID=11861) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:11:41.770+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:11:41.774+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:11:41.773+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:11:41.791+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:11:41.788+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:11:41.793+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:11:41.813+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.056 seconds
+[2024-11-27T14:12:11.872+0000] {processor.py:186} INFO - Started process (PID=11927) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:12:11.873+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:12:11.875+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:12:11.875+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:12:11.890+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:12:11.887+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:12:11.891+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:12:11.908+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.041 seconds
+[2024-11-27T14:12:42.898+0000] {processor.py:186} INFO - Started process (PID=11981) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:12:42.899+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:12:42.901+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:12:42.901+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:12:42.913+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:12:42.910+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:12:42.914+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:12:42.932+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.039 seconds
+[2024-11-27T14:13:13.094+0000] {processor.py:186} INFO - Started process (PID=12042) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:13:13.096+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:13:13.099+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:13:13.099+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:13:13.117+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:13:13.112+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:13:13.119+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:13:13.159+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.074 seconds
+[2024-11-27T14:13:43.211+0000] {processor.py:186} INFO - Started process (PID=12098) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:13:43.212+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:13:43.214+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:13:43.214+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:13:43.231+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:13:43.227+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:13:43.232+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:13:43.250+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.044 seconds
+[2024-11-27T14:14:13.509+0000] {processor.py:186} INFO - Started process (PID=12159) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:14:13.510+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:14:13.513+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:14:13.512+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:14:13.531+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:14:13.527+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:14:13.532+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:14:13.556+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.053 seconds
+[2024-11-27T14:14:43.670+0000] {processor.py:186} INFO - Started process (PID=12224) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:14:43.671+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:14:43.673+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:14:43.673+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:14:43.689+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:14:43.686+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:14:43.691+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:14:43.711+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.047 seconds
+[2024-11-27T14:15:14.031+0000] {processor.py:186} INFO - Started process (PID=12287) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:15:14.032+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:15:14.034+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:15:14.034+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:15:14.049+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:15:14.046+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:15:14.050+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:15:14.068+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.042 seconds
+[2024-11-27T14:15:44.804+0000] {processor.py:186} INFO - Started process (PID=12349) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:15:44.805+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:15:44.808+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:15:44.807+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:15:44.821+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:15:44.818+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:15:44.822+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:15:44.840+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.040 seconds
+[2024-11-27T14:16:15.104+0000] {processor.py:186} INFO - Started process (PID=12407) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:16:15.105+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:16:15.109+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:16:15.108+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:16:15.124+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:16:15.121+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:16:15.125+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:16:15.142+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.047 seconds
+[2024-11-27T14:16:46.045+0000] {processor.py:186} INFO - Started process (PID=12473) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:16:46.046+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:16:46.049+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:16:46.049+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:16:46.067+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:16:46.063+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:16:46.068+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:16:46.091+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.053 seconds
+[2024-11-27T14:17:16.162+0000] {processor.py:186} INFO - Started process (PID=12539) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:17:16.163+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:17:16.165+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:17:16.165+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:17:16.182+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:17:16.176+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:17:16.183+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:17:16.200+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.044 seconds
+[2024-11-27T14:17:46.479+0000] {processor.py:186} INFO - Started process (PID=12605) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:17:46.480+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:17:46.482+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:17:46.482+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:17:46.500+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:17:46.497+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:17:46.501+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:17:46.519+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.045 seconds
+[2024-11-27T14:18:16.904+0000] {processor.py:186} INFO - Started process (PID=12671) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:18:16.905+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:18:16.908+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:18:16.908+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:18:16.928+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:18:16.926+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:18:16.929+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:18:16.945+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.048 seconds
+[2024-11-27T14:18:47.088+0000] {processor.py:186} INFO - Started process (PID=12737) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:18:47.089+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:18:47.091+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:18:47.091+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:18:47.107+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:18:47.104+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:18:47.108+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:18:47.126+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.046 seconds
+[2024-11-27T14:19:18.043+0000] {processor.py:186} INFO - Started process (PID=12803) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:19:18.044+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:19:18.046+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:19:18.046+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:19:18.060+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:19:18.058+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:19:18.062+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:19:18.079+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.042 seconds
+[2024-11-27T14:19:48.954+0000] {processor.py:186} INFO - Started process (PID=12869) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:19:48.955+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:19:48.957+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:19:48.957+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:19:48.971+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:19:48.969+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:19:48.972+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:19:48.989+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.041 seconds
+[2024-11-27T14:20:19.906+0000] {processor.py:186} INFO - Started process (PID=12935) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:20:19.908+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:20:19.911+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:20:19.911+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:20:19.930+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:20:19.927+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:20:19.932+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:20:19.949+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.050 seconds
+[2024-11-27T14:20:50.567+0000] {processor.py:186} INFO - Started process (PID=13001) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:20:50.568+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:20:50.570+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:20:50.570+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:20:50.585+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:20:50.582+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:20:50.586+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:20:50.602+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.042 seconds
+[2024-11-27T14:21:21.120+0000] {processor.py:186} INFO - Started process (PID=13067) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:21:21.122+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:21:21.124+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:21:21.124+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:21:21.139+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:21:21.135+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:21:21.140+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:21:21.158+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.044 seconds
+[2024-11-27T14:21:51.781+0000] {processor.py:186} INFO - Started process (PID=13133) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:21:51.782+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:21:51.784+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:21:51.784+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:21:51.798+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:21:51.796+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:21:51.799+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:21:51.816+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.043 seconds
+[2024-11-27T14:22:22.383+0000] {processor.py:186} INFO - Started process (PID=13199) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:22:22.384+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:22:22.386+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:22:22.386+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:22:22.403+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:22:22.400+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:22:22.405+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:22:22.423+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.046 seconds
+[2024-11-27T14:22:52.599+0000] {processor.py:186} INFO - Started process (PID=13265) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:22:52.600+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:22:52.602+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:22:52.602+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:22:52.616+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:22:52.614+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:22:52.617+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:22:52.634+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.040 seconds
+[2024-11-27T14:23:23.372+0000] {processor.py:186} INFO - Started process (PID=13331) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:23:23.373+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:23:23.375+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:23:23.375+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:23:23.393+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:23:23.390+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:23:23.394+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:23:23.412+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.045 seconds
+[2024-11-27T14:23:53.908+0000] {processor.py:186} INFO - Started process (PID=13397) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:23:53.909+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:23:53.912+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:23:53.912+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:23:53.932+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:23:53.927+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:23:53.933+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:23:53.951+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.050 seconds
+[2024-11-27T14:24:24.528+0000] {processor.py:186} INFO - Started process (PID=13463) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:24:24.529+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:24:24.531+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:24:24.531+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:24:24.548+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:24:24.545+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:24:24.549+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:24:24.565+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.043 seconds
+[2024-11-27T14:24:55.478+0000] {processor.py:186} INFO - Started process (PID=13529) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:24:55.480+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:24:55.482+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:24:55.482+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:24:55.504+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:24:55.501+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:24:55.505+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:24:55.522+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.050 seconds
+[2024-11-27T14:25:26.382+0000] {processor.py:186} INFO - Started process (PID=13595) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:25:26.383+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:25:26.386+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:25:26.386+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:25:26.402+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:25:26.398+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:25:26.403+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:25:26.425+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.048 seconds
+[2024-11-27T14:25:57.250+0000] {processor.py:186} INFO - Started process (PID=13661) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:25:57.252+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:25:57.255+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:25:57.255+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:25:57.279+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:25:57.276+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:25:57.280+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:25:57.297+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.055 seconds
+[2024-11-27T14:26:28.181+0000] {processor.py:186} INFO - Started process (PID=13727) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:26:28.182+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:26:28.186+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:26:28.185+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:26:28.218+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:26:28.212+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:26:28.220+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:26:28.240+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.069 seconds
+[2024-11-27T14:26:59.137+0000] {processor.py:186} INFO - Started process (PID=13793) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:26:59.139+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:26:59.141+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:26:59.140+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:26:59.153+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:26:59.151+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:26:59.154+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:26:59.172+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.040 seconds
+[2024-11-27T14:27:29.699+0000] {processor.py:186} INFO - Started process (PID=13859) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:27:29.700+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:27:29.702+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:27:29.702+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:27:29.721+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:27:29.717+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:27:29.722+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:27:29.741+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.047 seconds
+[2024-11-27T14:28:00.603+0000] {processor.py:186} INFO - Started process (PID=13925) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:28:00.604+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:28:00.606+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:28:00.606+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:28:00.623+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:28:00.621+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:28:00.624+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:28:00.641+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.043 seconds
+[2024-11-27T14:28:31.445+0000] {processor.py:186} INFO - Started process (PID=13991) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:28:31.447+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:28:31.449+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:28:31.449+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:28:31.470+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:28:31.466+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:28:31.471+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:28:31.492+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.052 seconds
+[2024-11-27T14:29:01.601+0000] {processor.py:186} INFO - Started process (PID=14057) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:29:01.603+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:29:01.606+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:29:01.605+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:29:01.626+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:29:01.622+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:29:01.627+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:29:01.647+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.053 seconds
+[2024-11-27T14:29:31.723+0000] {processor.py:186} INFO - Started process (PID=14123) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:29:31.724+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:29:31.726+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:29:31.726+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:29:31.743+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:29:31.740+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:29:31.744+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:29:31.763+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.045 seconds
+[2024-11-27T14:30:02.352+0000] {processor.py:186} INFO - Started process (PID=14190) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:30:02.353+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:30:02.355+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:30:02.355+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:30:02.368+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:30:02.366+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:30:02.369+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:30:02.386+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.039 seconds
+[2024-11-27T14:30:32.692+0000] {processor.py:186} INFO - Started process (PID=14256) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:30:32.694+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:30:32.698+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:30:32.697+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:30:32.712+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:30:32.710+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:30:32.713+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:30:32.736+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.054 seconds
+[2024-11-27T14:31:03.355+0000] {processor.py:186} INFO - Started process (PID=14322) to work on /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:31:03.356+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/firebase_to_s3_to_rds.py for tasks to queue
+[2024-11-27T14:31:03.359+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:31:03.358+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:31:03.375+0000] {logging_mixin.py:190} INFO - [2024-11-27T14:31:03.371+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/firebase_to_s3_to_rds.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/firebase_to_s3_to_rds.py", line 7, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-11-27T14:31:03.376+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase_to_s3_to_rds.py
+[2024-11-27T14:31:03.395+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/firebase_to_s3_to_rds.py took 0.046 seconds
