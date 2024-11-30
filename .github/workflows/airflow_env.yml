@@ -29,7 +29,7 @@ jobs:
         uses: appleboy/scp-action@v0.1.4
         with:
           host: ec2-52-72-97-88.compute-1.amazonaws.com  # Your EC2 Host name
-          username: airflow  # Your EC2 Username
+          username: ubuntu  # Your EC2 Username
           key: ${{ secrets.RSA_PRIVATE_KEY }}  # Secret Variable we created
           source: gsheet_to_s3_to_rds.py  # This is our Source File name placed in Airflow-scripts Folder
           target: /home/airflow/airflow/dags/  # Your target folder in EC2 where you want to create the file
