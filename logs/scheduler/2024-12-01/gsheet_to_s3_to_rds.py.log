@@ -320,3 +320,10 @@
 [2024-12-01T02:33:50.511+0000] {logging_mixin.py:190} INFO - [2024-12-01T02:33:50.511+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-12-01T02:33:50.533+0000] {logging_mixin.py:190} INFO - [2024-12-01T02:33:50.533+0000] {dag.py:4180} INFO - Setting next_dagrun for gsheet_to_s3_to_rds to 2024-11-30 00:00:00+00:00, run_after=2024-12-01 00:00:00+00:00
 [2024-12-01T02:33:50.550+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gsheet_to_s3_to_rds.py took 0.089 seconds
+[2024-12-01T02:34:21.245+0000] {processor.py:186} INFO - Started process (PID=53560) to work on /opt/airflow/dags/gsheet_to_s3_to_rds.py
+[2024-12-01T02:34:21.246+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gsheet_to_s3_to_rds.py for tasks to queue
+[2024-12-01T02:34:21.250+0000] {logging_mixin.py:190} INFO - [2024-12-01T02:34:21.249+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gsheet_to_s3_to_rds.py
+[2024-12-01T02:34:21.278+0000] {processor.py:925} INFO - DAG(s) 'gsheet_to_s3_to_rds' retrieved from /opt/airflow/dags/gsheet_to_s3_to_rds.py
+[2024-12-01T02:34:21.304+0000] {logging_mixin.py:190} INFO - [2024-12-01T02:34:21.304+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T02:34:21.330+0000] {logging_mixin.py:190} INFO - [2024-12-01T02:34:21.330+0000] {dag.py:4180} INFO - Setting next_dagrun for gsheet_to_s3_to_rds to 2024-11-30 00:00:00+00:00, run_after=2024-12-01 00:00:00+00:00
+[2024-12-01T02:34:21.348+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gsheet_to_s3_to_rds.py took 0.113 seconds
