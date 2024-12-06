@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "how-agile",
+  "private_key_id": "48610d590f06340aef4edec66a1557892e90e970",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDduvxviXRbmErA\nAjAoveK/rFsv115u12wlVSP9MEvM26qFE5vVLyttlKPAZOnZp7Kfus6xLlTSrWWb\nI6UJoeBj27j7poXmZ19lFr3m4gYc+9MSGtFPZvX2JsQmePjfJZWhcDrCKuqIHiER\n75XiSXSeUX5f876u6gHLXuUPVodGsX+P06A0kKPHu6toE6suwWC9jjWrI061xd/P\naIvqkpW1szKn6PmJzK0EvqAU3O8f+115yZEUImY76CqXnqxFAWj8KmkxGT4evfw3\npctmu6rgfKKglXQzxMUIFnCrHcfsxUB96E8XB870Li5ZwBN52+P56rWKHBQEeZfA\n3Nfa6u5VAgMBAAECggEABEElvdgj2OwTpxqDpQx7sNTUTRczUyokA5VeIuoN0kj2\nvSXyrAUDLs+W0sa86/W5SjJR6/lpHD/CftcQwB4Qian6Iy3/TLv4Cx8EFs2Ic37r\nfmHwWTcvCgGVau2QTOvSMq5OGlKrfGAjn037EMP7Dlye8aViJ8YKscXI3GH7J4KQ\nOv1e1ibFgpWkIvDqEsr0v2BOs2nsCUJ/EkH0bqg1fSQ3A1VGsw7+T5Zkud8wq9K5\nl24tJxM8yVOpMwsgKVFGeBHp/ToVCoKvf/IzBKWENcvo7CLH+BC3aGDGD6EpFZWE\nNdhRZEST6ATVEhx5Is8P42d9gOSDE5wrr0TVHxr1YQKBgQD4HOpObAluoCu7o69e\ni2ifOd8rSfOBCimCuWvPUL5Ovi/L0N5FtbxAsQF3gS0yfpIs89EV2CE1iV/GhkLx\nygeZmeGFghujx4yq3VOqu712DLEVFbcAI5nFFDfptdIYlu+WUCla3uTMEDwRTLpR\nn5AjOkDkxvCkLVxwTdBwX0rFhQKBgQDkx2A+pHkGqojEL0KaqxOh/m4vYspUZv+K\nbqPwFV9kuEK77RI6bWvbQszfPBAfXQeXTIHHOELFS/CeJdqEIvDlZuOY1vqywEt5\nvIHFsyEMJlJhDR4m8Csbap7RywIMOBd2ZWs8KrTxDsAd4G4KeQv+Imx0kK3Vzuuf\n4OAl8Xs2kQKBgQDvF14q6C1Gr461KQ0rvIe7OJd4LbE7nkFWObxMcXCSjO+eJs6q\nunCInondUVvuls3iB6pqtHV8E795nZQRUDB2sjUC5NghwYAqf1HK61Ot2JkkymIo\n/iWGJu+ihZXKIFkMrn7LlJNCmjpoKVo6odrSN6alT5hBfXzgs/uy7gEtyQKBgCS5\nPGHR1PuU9E9Jps9dFtGyHc3Ndd0Gi46VJAut4powWcYA0CRA3Edd+bT71zqxnD5V\nMZ/hEBbLkdxRBzqewTyRv4cROzzmUTdBYzNxBaUFocOib2ygsMq92rCifbmoZ1vB\n++y0jkcDryMcm41i0OICdJZhgwYHKRuI5XIxyS2BAoGANweeAZdczAWgEyDkIwEK\n9GCaVbtr4h/+Ydx+BJB9xAyWswx4oZtnYqEH0FUBzOeLEEW7QGgYqwQbB8m9xsS3\nAAl+8jl0abWEQUucUv4CNh1U2/gwiMUcMCqMS1Nw/TTZ0iojHxhxos2+GDjAkslN\nK5BxidinnxQRFhyMZkxCcHg=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-3lvow@how-agile.iam.gserviceaccount.com",
+  "client_id": "113673740425537759398",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-3lvow%40how-agile.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

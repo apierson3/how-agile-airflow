@@ -1,0 +1,32 @@
+[2024-12-06T03:34:54.133+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-06T03:34:54.150+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: firestore_to_s3_to_rds.exec_fact_load manual__2024-12-06T03:34:51.558062+00:00 [queued]>
+[2024-12-06T03:34:54.160+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: firestore_to_s3_to_rds.exec_fact_load manual__2024-12-06T03:34:51.558062+00:00 [queued]>
+[2024-12-06T03:34:54.161+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2024-12-06T03:34:54.176+0000] {taskinstance.py:2889} INFO - Executing <Task(SQLExecuteQueryOperator): exec_fact_load> on 2024-12-06 03:34:51.558062+00:00
+[2024-12-06T03:34:54.181+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=5087) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-06T03:34:54.183+0000] {standard_task_runner.py:72} INFO - Started process 5092 to run task
+[2024-12-06T03:34:54.184+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'firestore_to_s3_to_rds', 'exec_fact_load', 'manual__2024-12-06T03:34:51.558062+00:00', '--job-id', '250', '--raw', '--subdir', 'DAGS_FOLDER/firebase_to_s3_to_rds.py', '--cfg-path', '/tmp/tmpypaoa3cl']
+[2024-12-06T03:34:54.185+0000] {standard_task_runner.py:105} INFO - Job 250: Subtask exec_fact_load
+[2024-12-06T03:34:54.237+0000] {task_command.py:467} INFO - Running <TaskInstance: firestore_to_s3_to_rds.exec_fact_load manual__2024-12-06T03:34:51.558062+00:00 [running]> on host 4b3a7f9b2751
+[2024-12-06T03:34:54.602+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='firestore_to_s3_to_rds' AIRFLOW_CTX_TASK_ID='exec_fact_load' AIRFLOW_CTX_EXECUTION_DATE='2024-12-06T03:34:51.558062+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-06T03:34:51.558062+00:00'
+[2024-12-06T03:34:54.604+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-12-06T03:34:54.604+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-12-06T03:34:54.605+0000] {logging_mixin.py:190} INFO - Current task name:exec_fact_load state:running start_date:2024-12-06 03:34:54.150768+00:00
+[2024-12-06T03:34:54.605+0000] {logging_mixin.py:190} INFO - Dag name:firestore_to_s3_to_rds and current dag run status:running
+[2024-12-06T03:34:54.606+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-06T03:34:54.606+0000] {sql.py:278} INFO - Executing: CALL dbo.update_user_fact;
+[2024-12-06T03:34:54.615+0000] {base.py:84} INFO - Retrieving connection 'mysql_conn'
+[2024-12-06T03:34:54.625+0000] {base.py:84} INFO - Retrieving connection 'mysql_conn'
+[2024-12-06T03:34:54.949+0000] {sql.py:544} INFO - Running statement: CALL dbo.update_user_fact;, parameters: None
+[2024-12-06T03:34:54.998+0000] {sql.py:553} INFO - Rows affected: 0
+[2024-12-06T03:34:55.049+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-06T03:34:55.050+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=firestore_to_s3_to_rds, task_id=exec_fact_load, run_id=manual__2024-12-06T03:34:51.558062+00:00, execution_date=20241206T033451, start_date=20241206T033454, end_date=20241206T033455
+[2024-12-06T03:34:55.062+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-12-06T03:34:55.062+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-12-06T03:34:55.063+0000] {logging_mixin.py:190} INFO - Dag name:firestore_to_s3_to_rds queued_at:2024-12-06 03:34:51.571958+00:00
+[2024-12-06T03:34:55.063+0000] {logging_mixin.py:190} INFO - Task hostname:4b3a7f9b2751 operator:SQLExecuteQueryOperator
+[2024-12-06T03:34:55.081+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-06T03:34:55.117+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-06T03:34:55.121+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
